@@ -48,3 +48,7 @@ span {
 a:active {
   background-color: blue;
 }
+
+a:visited {
+  background-color: yellow;
+}

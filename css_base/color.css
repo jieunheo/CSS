@@ -1,0 +1,18 @@
+.color:first-child {
+  color: #8a2be2;
+}
+
+.color:nth-child(2n) {
+  color: rgb(138, 43, 226);
+}
+
+.color:last-child {
+  color: blueviolet;
+}
+
+.colorIn {
+  color: yellow;
+  background-color: orange;
+  border: 2px solid;
+  border-color: red;
+}

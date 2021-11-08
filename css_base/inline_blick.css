@@ -1,0 +1,32 @@
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+span {
+  color: blue;
+  background-color: turquoise;
+}
+
+.block {
+  background-color: cornflowerblue;
+}
+
+.block p {
+  color: brown;
+  font-weight: bold;
+  background-color: aquamarine;
+}
+
+.inline_block {
+  background-color: cadetblue;
+}
+
+.inline_block span {
+  display: inline-block;
+  background-color: thistle;
+  margin: 10px;
+  color: yellow;
+  width: 130px;
+  height: 70px;
+}

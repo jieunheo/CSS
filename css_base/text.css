@@ -1,0 +1,45 @@
+.indent {
+  padding: 0 50px;
+  border: 1px solid #222222;
+}
+
+.indent p:first-child {
+  text-indent: 3em;
+}
+
+.indent p:last-child {
+  text-indent: -3em;
+}
+
+.align {
+  width: 400px;
+}
+
+.align p.left {
+  text-align: left;
+}
+
+.align p.right {
+  text-align: right;
+}
+
+.align p.center {
+  text-align: center;
+}
+
+.align p.justify {
+  text-align: justify;
+}
+
+.decoration p:first-child {
+  text-decoration: underline;
+  /* text-decoration: none; 값을 없앤다 */
+}
+
+.decoration p:nth-child(2) {
+  text-decoration: overline;
+}
+
+.decoration p:last-child {
+  text-decoration: line-through;
+}

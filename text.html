@@ -37,5 +37,72 @@
       <p>overline</p>
       <p>line-through</p>
     </div>
+    <br>
+    <h3>단위</h3>
+    <p>스타일을 줄 때 크기, 두께, 높이 등에 사용하는 단위가 있다.</p>
+    <ul>
+      <li>em: 현재 기준 배수</li>
+      <li>%: 현재 기준 퍼센트</li>
+      <li>px: 픽셀 수</li>
+      <li>cm: 센티미터</li>
+      <li>mm: 밀리미터</li>
+      <li>in: 인치. 1in -> 2.54cm -> 96px</li>
+      <li>pt: 포인터. 1pt -> 1in의 1/72 크기</li>
+      <li>pc: 피카소. 1pc -> 12pt</li>
+      <li>deg: 각도</li>
+    </ul>
+    <br>
+    <h3>폰트 종류 (font-family)</h3>
+    <p>폰트의 가장 기본은 삐침(serif)이 있냐 없냐(sans-serif)이다.<br>
+    또한 글자 폭이 동일한 Monospace형이 있다.</p>
+    <div class="family">
+      <p>serif 글씨 입니다.</p>
+      <p>sans-serif 글씨 입니다.</p>
+      <p>Monospace 글씨 입니다.</p>
+    </div>
+    <p>font-family 프로퍼티는 일반적으로 여러가지 값을 입력한다.</p>
+    <p class="ex">font-family: Arial, "Times New Roman", Serif</p>
+    <br>
+    <h3>폰트 사이즈 (font-size)</h3>
+    <p>폰트 사이즈는 직접 값을 주거나 medium, large 등 값을 넣을 수 있다.</p>
+    <div class="size">
+      <p class="px">px</p>
+      <p class="em">em</p>
+      <p class="medium">medium</p>
+      <p class="xx-small">xx-small</p>
+      <p class="x-small">x-small</p>
+      <p class="small">small</p>
+      <p class="smaller">smaller</p>
+      <p class="large">large</p>
+      <p class="x-large">x-large</p>
+      <p class="xx-large">xx-large</p>
+      <p class="larger">larger</p>
+    </div>
+    <br>
+    <h3>폰트 스타일 (font-style)</h3>
+    <p>폰트 스타일에는 normal, italic, oblique가 있다.</p>
+    <div class="style">
+      <p>전형적인 스타일 (normal)</p>
+      <p>필기체 (italic)</p>
+      <p>약간 기울인 스타일 (oblique)</p>
+    </div>
+    <br>
+    <h3>폰트 굵기 (font-weight)</h3>
+    <p>폰트 굵기는 100~900 사이의 값을 넣어 지정한다.<br>
+    normal(400), bold(700), bolder, ligther을 사용하기도 한다.</p>
+    <div class="weight">
+      <p>100</p>
+      <p>200</p>
+      <p>300</p>
+      <p>400</p>
+      <p>500</p>
+      <p>600</p>
+      <p>700</p>
+      <p>800</p>
+      <p>900</p>
+    </div>
+    <p>위의 font 속성을 하나로 묶어서 단축으로 사용할 수 있다.</p>
+    <p class="ex">font: font-style font-weigth font-size font-family<br>
+    <strong>font: italic bold 20px consolas, sams-serif</strong></p>
   </body>
 </html>

@@ -43,3 +43,112 @@
 .decoration p:last-child {
   text-decoration: line-through;
 }
+
+.family p:first-child {
+  font-family: serif;
+}
+
+.family p:nth-child(2) {
+  font-family: sans-serif;
+}
+
+.family p:last-child {
+  font-family: monospace;
+}
+
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+.size .px {
+  font-size: 20px;
+}
+
+.size .em {
+  font-size: 1.5em;
+}
+
+.size .medium {
+  font-size: medium;
+}
+
+.size .xx-small {
+  font-size: xx-small;
+}
+
+.size .x-small {
+  font-size: x-small;
+}
+
+.size .small {
+  font-size: small;
+}
+
+.size .smaller {
+  font-size: smaller;
+}
+
+.size .large {
+  font-size: large;
+}
+
+.size .x-large {
+  font-size: x-large;
+}
+
+.size .xx-large {
+  font-size: xx-large;
+}
+
+.size .larger {
+  font-size: larger;
+}
+
+.style p:first-child {
+  font-style: normal;
+}
+
+.style p:nth-child(2) {
+  font-style: italic;
+}
+
+.style p:last-child {
+  font-style: oblique;
+}
+
+.weight p:first-child {
+  font-weight: 100;
+}
+
+.weight p:nth-child(2) {
+  font-weight: 200;
+}
+
+.weight p:nth-child(3) {
+  font-weight: 300;
+}
+
+.weight p:nth-child(4) {
+  font-weight: 400;
+}
+
+.weight p:nth-child(5) {
+  font-weight: 500;
+}
+
+.weight p:nth-child(6) {
+  font-weight: 600;
+}
+
+.weight p:nth-child(7) {
+  font-weight: 700;
+}
+
+.weight p:nth-child(8) {
+  font-weight: 800;
+}
+
+.weight p:last-child {
+  font-weight: 900;
+}

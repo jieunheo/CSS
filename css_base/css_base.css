@@ -45,10 +45,14 @@ span {
   background-color: yellow;
 }
 
-a:active {
+.activeA:active {
   background-color: blue;
 }
 
-a:visited {
+.visitedA:visited {
   background-color: yellow;
+}
+
+.linkA:link {
+  background-color: red;
 }

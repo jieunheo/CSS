@@ -86,3 +86,23 @@ div::first-letter {
   content: "hello after";
   color: aqua;
 }
+
+.me {
+  color: blueviolet;
+}
+
+.me+li {
+  background-color: chartreuse;
+}
+
+.me~li {
+  color: yellow;
+}
+
+.me ul {
+  background-color: crimson;
+}
+
+.me li {
+  color: aquamarine;
+}

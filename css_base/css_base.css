@@ -68,3 +68,11 @@ span {
 .pseudo li:last-child {
   background-color:green;
 }
+
+div::first-line {
+  background-color: orange;
+}
+
+div::first-letter {
+  color: red;
+}

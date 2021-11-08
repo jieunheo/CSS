@@ -1,0 +1,129 @@
+.boxWrap {
+  border: 1px solid #eee;
+}
+
+.box {
+  margin: 100px;
+  padding: 50px;
+  border: 5px solid #222;
+  background-color: tomato;
+}
+
+.boxes {
+  display: flex;
+}
+
+.boxes div {
+  margin: 5px;
+}
+
+.box1 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: violet;
+}
+
+.box2 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: rgb(143, 28, 143);
+}
+
+.box3 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: groove;
+  border-color: violet;
+}
+
+.box4 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: double;
+  border-color: violet;
+}
+
+.box5 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: violet;
+}
+
+.box6 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: outset;
+  border-color: violet;
+}
+
+.box7 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: inset;
+  border-color: violet;
+}
+
+.box8 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: violet;
+}
+
+.box9 {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  border-style: unset;
+  border-color: violet;
+}
+
+.radius {
+  display: flex;
+}
+
+.radius div {
+  margin: 10px;
+}
+
+.radius div:first-child {
+  width: 100px;
+  height: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 15px;
+}
+
+.radius div:last-child {
+  width: 100px;
+  height: 100px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: violet;
+  border-radius: 15px 30px 0 10px;
+}
+
+.imgBox {
+  width: 100px;
+  height: 100px;
+  border-width: 30px;
+  border-style: solid;
+  border-image: url("https://w7.pngwing.com/pngs/796/199/png-transparent-logo-symbol-font-folha-miscellaneous-angle-leaf.png") 1000 round;
+}
+
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}

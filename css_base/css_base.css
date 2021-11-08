@@ -76,3 +76,13 @@ div::first-line {
 div::first-letter {
   color: red;
 }
+
+.before_after::before {
+  content: "hello before";
+  color: aqua;
+}
+
+.before_after::after {
+  content: "hello after";
+  color: aqua;
+}

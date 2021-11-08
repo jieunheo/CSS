@@ -21,11 +21,13 @@ span {
   font-size: 40px;
 }
 
+/* p.hello로 작성가능 - p태그 중 class 속성에 hello가 적힌 태그 */
 .hello {
   font-weight: bold;
   font-style: italic;
 }
 
+/* p#name로 작성가능 - p태그 중 id 속성에 name이 적힌 태그 */
 #name {
   font-size: 12px;
   color: brown;

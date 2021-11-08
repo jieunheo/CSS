@@ -40,3 +40,7 @@ span {
 .hoverP:hover {
   color: red;
 }
+
+.focusInput:focus {
+  background-color: yellow;
+}

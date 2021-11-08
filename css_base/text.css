@@ -152,3 +152,39 @@
 .weight p:last-child {
   font-weight: 900;
 }
+
+.height p {
+  border: 1px solid #eee;
+}
+
+.height p:first-child {
+  line-height: 30px;
+}
+
+.height p:nth-child(2) {
+  line-height: 100px;
+}
+
+.height p:last-child {
+  line-height: 200px;
+}
+
+.Lspacing {
+  letter-spacing: 30px;
+}
+
+.Wspacing {
+word-spacing: 30px;
+}
+
+.shadow p:first-child {
+  text-shadow: 2px 2px 2px gray;;
+}
+
+.shadow p:nth-child(2) {
+  text-shadow: 4px 3px 4px gray;;
+}
+
+.shadow p:last-child {
+  text-shadow: 6px 7px 7px gray;;
+}

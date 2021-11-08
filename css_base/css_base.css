@@ -44,3 +44,7 @@ span {
 .focusInput:focus {
   background-color: yellow;
 }
+
+a:active {
+  background-color: blue;
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: mistyrose;
+  color: darkcyan;
+}
+
+h3 {
+  color: purple;
+}
+
+hr {
+  border: 5px solid yellow;
+}
+
+span {
+  color: blue;
+  font-size: 40px;
+}

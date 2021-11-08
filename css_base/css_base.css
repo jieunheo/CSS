@@ -36,3 +36,7 @@ span {
   font-size: 12px;
   color: brown;
 }
+
+.hoverP:hover {
+  color: red;
+}

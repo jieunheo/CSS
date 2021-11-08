@@ -1,0 +1,39 @@
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+.backWrap div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.color {
+  background-color: tomato;
+}
+
+.image {
+  background-image: url("https://previews.123rf.com/images/kutanina/kutanina1608/kutanina160800026/60630810-%ED%95%98%ED%8A%B8-%ED%8C%A8%ED%84%B4%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%88%98%EC%B1%84%ED%99%94-%ED%85%8D%EC%8A%A4%EC%B2%98%EB%A5%BC-%EB%B0%98%EB%B3%B5-%EB%B0%9C%EB%A0%8C%ED%83%80%EC%9D%B8-%EB%8D%B0%EC%9D%B4-%EB%B0%B0%EA%B2%BD.jpg");
+  background-size: 100%;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://previews.123rf.com/images/kutanina/kutanina1608/kutanina160800026/60630810-%ED%95%98%ED%8A%B8-%ED%8C%A8%ED%84%B4%EC%9E%85%EB%8B%88%EB%8B%A4-%EC%88%98%EC%B1%84%ED%99%94-%ED%85%8D%EC%8A%A4%EC%B2%98%EB%A5%BC-%EB%B0%98%EB%B3%B5-%EB%B0%9C%EB%A0%8C%ED%83%80%EC%9D%B8-%EB%8D%B0%EC%9D%B4-%EB%B0%B0%EA%B2%BD.jpg");
+  background-position: left top;
+  background-size: 50%;
+  background-repeat: repeat;
+}
+
+.backImage {
+  width: 300px;
+  height: 300px;
+  /* background-color: lightblue;
+  background-size: 150px 150px;
+  background-image: url("https://stickershop.line-scdn.net/stickershop/v1/product/1076/LINEStorePC/main.png;compress=true");
+  background-repeat: repeat-y;
+  background-position: center center; */
+  background: lightblue url(https://stickershop.line-scdn.net/stickershop/v1/product/1076/LINEStorePC/main.png;compress=true) center center/150px 150px repeat-y
+}

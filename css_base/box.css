@@ -127,3 +127,9 @@
   border: 1px solid #222;
   padding: 10px;
 }
+
+.shadow {
+  width: 100px;
+  height: 100px;
+  box-shadow: 5px 5px 5px 5px gray;
+}

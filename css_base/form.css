@@ -1,0 +1,13 @@
+input[type=text] {
+  color: red;
+  border: 1px solid steelblue;
+  border-radius: 10px;
+}
+
+input[type=text]:hover {
+  background-color: steelblue;
+}
+
+input[type=text]:focus {
+  background-color: thistle;
+}

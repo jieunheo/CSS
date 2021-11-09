@@ -71,10 +71,32 @@
   line-height: 100px;
 }
 
-.index {
-  position: relative;
+#testA {
+  width: 100px;
+  height: 100px;
   color: white;
   text-align: center;
+  background-color: cadetblue;
+}
+
+#testB {
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  background-color: rgb(50, 108, 110);
+}
+
+#testC {
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  background-color: rgb(30, 80, 82);
+}
+
+.index {
+  position: relative;
   height: 170px;
 }
 
@@ -87,39 +109,36 @@
 .index #testA {
   left: 10px;
   top: 10px;
-  background-color: cadetblue;
   z-index: 3;
 }
 
 .index #testB {
   left: 30px;
   top: 30px;
-  background-color: rgb(50, 108, 110);
   z-index: 9;
 }
 
 .index #testC {
   left: 50px;
   top: 50px;
-  background-color: rgb(30, 80, 82);
   z-index: 1;
 }
 
-.visiblity #testA {
-  width: 100px;
-  height: 100px;
-  background-color: cadetblue;
-}
-
 .visiblity #testB {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(50, 108, 110);
   visibility: hidden;
 }
 
-.visiblity #testC {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(30, 80, 82);
+.overflow #testA {
+  width: 300px;
+  overflow: hidden;
+}
+
+.overflow #testB {
+  width: 300px;
+  overflow: scroll;
+}
+
+.overflow #testC {
+  width: 300px;
+  color: gray;
 }

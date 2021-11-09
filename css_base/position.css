@@ -75,6 +75,7 @@
   position: relative;
   color: white;
   text-align: center;
+  height: 170px;
 }
 
 .index div {
@@ -83,23 +84,42 @@
   height: 100px;
 }
 
-#testA {
+.index #testA {
   left: 10px;
   top: 10px;
   background-color: cadetblue;
   z-index: 3;
 }
 
-#testB {
+.index #testB {
   left: 30px;
   top: 30px;
   background-color: rgb(50, 108, 110);
   z-index: 9;
 }
 
-#testC {
+.index #testC {
   left: 50px;
   top: 50px;
   background-color: rgb(30, 80, 82);
   z-index: 1;
+}
+
+.visiblity #testA {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+.visiblity #testB {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(50, 108, 110);
+  visibility: hidden;
+}
+
+.visiblity #testC {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(30, 80, 82);
 }

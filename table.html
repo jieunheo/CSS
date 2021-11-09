@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css_base/table.css">
+    <title>table</title>
+  </head>
+  <body>
+    <h2>table</h2>
+    <hr>
+    <p>표를 꾸미는 프로퍼티를 하나씩 살펴보자</p>
+    <br>
+    <h3>border</h3>
+    <p>표는 기본적으로 테두리가 없는 상태이다. border 값을 주어 선을 만들어줄 수 있다.</p>
+    <table>
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+    <p>만약 테두리를 하나로 합치고 싶다면 border-collapse를 collapse로 설정하면 된다.</p>
+    <table class="border">
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+    <br>
+    <h3>width, height</h3>
+    <p>셀의 크기를 지정하기 위해서 width, height 값을 사용할 수 있다.</p>
+    <table class="WH">
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+    <br>
+    <h3>padding, text-align</h3>
+    <p>셀의 여백 및 정렬을 지정할 수 있다.</p>
+    <table class="PT">
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+    <br>
+    <h3>background</h3>
+    <p>셀의 배경색을 지정할 수 있다.</p>
+    <table class="background">
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+    <p>nth-child(even)를 이용하여 줄무늬도 만들 수 있다.</p>
+    <table class="background2">
+      <thead>
+        <tr><th>이름</th><th>국어</th><th>수학</th></tr>
+      </thead>
+      <tfoot>
+        <tr><th>합</th><th>175</th><th>169</th></tr>
+      </tfoot>
+      <tbody>
+        <tr><td>홍길동</td><td>95</td><td>70</td></tr>
+        <tr><td>김삼순</td><td>80</td><td>99</td></tr>
+        <tr><td>이순신</td><td>80</td><td>99</td></tr>
+        <tr><td>김개똥</td><td>80</td><td>99</td></tr>
+        <tr><td>몰랑이</td><td>80</td><td>99</td></tr>
+        <tr><td>푸우</td><td>80</td><td>99</td></tr>
+      </tbody>
+    </table>
+  </body>
+</html>

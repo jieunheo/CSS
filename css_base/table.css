@@ -1,0 +1,37 @@
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+table {
+  border: 1px solid lightblue;
+}
+
+td, th {
+  border: 1px dotted steelblue;
+}
+
+.border, .WH, .PT, .background, .background2 {
+  border-collapse: collapse;
+}
+
+.WH th {
+  width: 200px;
+  height: 40px;
+}
+
+.PT td, .PT th {
+  height: 20px;
+  width: 100px;
+  padding: 10px;
+  text-align: right;
+}
+
+.background th {
+  border-collapse: collapse;
+  background-color: steelblue;
+}
+
+.background2 tr:nth-child(even) {
+  background-color: tan;
+}

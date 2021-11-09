@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css_base/list.css">
+    <title>list</title>
+  </head>
+  <body>
+    <h2>list</h2>
+    <hr>
+    <p>데이터를 나열하여 보여주거나, 목차 및 메뉴를 만들어 관련 링크 모음을 만드는 등 웹 페이지에서 여러가지로 활용된다.<br>
+    리스트를 꾸미는 기본적인 css 프로퍼티는 다음과 같다.</p>
+    <ul>
+      <li>list-style-type: 아이템 마커 타입 지정</li>
+      <li>list-style-image: 아이템 마커 이미지 지정</li>
+      <li>list-style-position: 아이템 마커의 출력 위치 지정</li>
+      <li>list-style: 앞의 3개 프로퍼티를 한 번에 지정하는 단축 프로퍼티</li>
+    </ul>
+    <br>
+    <h3>background</h3>
+    <p>가장 간단하게는 background를 이용해서 색을 줄 수 있다.</p>
+    <ul class="background">
+      <li>리스트1</li>
+      <li>리스트2</li>
+      <li>리스트3</li>
+    </ul>
+    <br>
+    <h3>list-style-position</h3>
+    <p>마커의 위치를 지정할 수 있다. 기본값은 outside이며, inside 값이 있다.<br>
+      위 백그라운드 예시는 outside, 아래의 예제는 inside 이다.</p>
+    <ul class="position">
+      <li>리스트1</li>
+      <li>리스트2</li>
+      <li>리스트3</li>
+    </ul>
+    <br>
+    <h3>list-style-type</h3>
+    <p>마커의 종류는 여러가지 있으며 기본값은 circle이다.</p>
+    <ul class="type1">
+      <li>disc</li>
+      <li>disc</li>
+    </ul>
+    <ul class="type2">
+      <li>armenian</li>
+      <li>armenian</li>
+    </ul>
+    <ul class="type3">
+      <li>cjk-ideograghic</li>
+      <li>cjk-ideograghic</li>
+    </ul>
+    <ul class="type4">
+      <li>decimal</li>
+      <li>decimal</li>
+    </ul>
+    <ul class="type5">
+      <li>georgian</li>
+      <li>georgian</li>
+    </ul>
+    <ul class="type6">
+      <li>lower-alpha</li>
+      <li>lower-alpha</li>
+    </ul>
+    <ul class="type7">
+      <li>lower-roman</li>
+      <li>lower-roman</li>
+    </ul>
+    <ul class="type8">
+      <li>square</li>
+      <li>square</li>
+    </ul>
+    <ul class="type9">
+      <li>upper-alpha</li>
+      <li>upper-alpha</li>
+    </ul>
+    <ul class="type10">
+      <li>upper-roman</li>
+      <li>upper-roman</li>
+    </ul>
+    <ul class="type11">
+      <li>none</li>
+      <li>none</li>
+    </ul>
+    <br>
+    <h3>list-style-image</h3>
+    <p>마커에 이미지를 넣을 수 있다.<br>
+    이미지가 너무 커서 안들어간다....</p>
+    <ul class="img">
+      <li>리스트1</li>
+      <li>리스트2</li>
+    </ul>
+    <br>
+    <h3>list-style</h3>
+    <p>타입, 위치, 이미지 등을 한 번에 넣을 수 있다.</p>
+    <p class="ex">list-style: type position image<br>
+    <strong>list-style: circle inside url("./img/img.png")</strong></p>
+  </body>
+</html>

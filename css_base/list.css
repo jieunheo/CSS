@@ -1,0 +1,66 @@
+.ex {
+  border: 1px solid #222;
+  padding: 10px;
+}
+
+.background, .position {
+  background-color: khaki;
+  padding: 10px;
+}
+
+.background li, .position li {
+  margin: 10px;
+  background-color: lemonchiffon;
+}
+
+.position {
+  list-style-position: inside;
+}
+
+.type1 {
+  list-style-type: disc;
+}
+
+.type2 {
+  list-style-type: armenian;
+}
+
+.type3 {
+  list-style-type: cjk-ideograghic;
+}
+
+.type4 {
+  list-style-type: decimal;
+}
+
+.type5 {
+  list-style-type: georgian;
+}
+
+.type6 {
+  list-style-type: lower-alpha;
+}
+
+.type7 {
+  list-style-type: lower-roman;
+}
+
+.type8 {
+  list-style-type: square;
+}
+
+.type9 {
+  list-style-type: upper-alpha;
+}
+
+.type10 {
+  list-style-type: upper-roman;
+}
+
+.type11 {
+  list-style-type: none;
+}
+
+.img {
+  list-style-image: url("./img/img.png") 5px 5px;
+}
